@@ -1,0 +1,122 @@
+{
+  "case_01": {
+    "accuracy": {"score": 4, "rationale": "联系快递员/去错柜取等建议无明显事实错误"},
+    "helpfulness": {"score": 2, "rationale": "用户要的是帮我解决，回复却让用户自己联系快递、自己找柜，未主动揽办"},
+    "groundedness": {"score": 5, "rationale": "未编造订单或商品信息，只给通用建议"},
+    "tone": {"score": 3, "rationale": "礼貌但公事公办，对取件失败的不便没有安抚"}
+  },
+  "case_02": {
+    "accuracy": {"score": 4, "rationale": "民航局100Wh随身不托运的规则表述正确"},
+    "helpfulness": {"score": 2, "rationale": "用户问的是『这个』充电宝，回复未查商品，两次让用户自查容量/问航司"},
+    "groundedness": {"score": 4, "rationale": "没有臆造本商品的Wh数，用通用规则+提示自查，分寸得当"},
+    "tone": {"score": 4, "rationale": "表达礼貌，结构清晰"}
+  },
+  "case_03": {
+    "accuracy": {"score": 4, "rationale": "各支付渠道退款时效符合常见规则"},
+    "helpfulness": {"score": 3, "rationale": "通用时效准确，但用户问『我的退款』，未代查实际到账状态"},
+    "groundedness": {"score": 4, "rationale": "未声称已查到用户订单，用的是通用时效"},
+    "tone": {"score": 4, "rationale": "条理清楚，语气平稳"}
+  },
+  "case_04": {
+    "accuracy": {"score": 4, "rationale": "重连配对/单声道排查与7天质保说法无误"},
+    "helpfulness": {"score": 3, "rationale": "用户已明说买3天在保，仍先甩三步排查，未直接给退换方案"},
+    "groundedness": {"score": 4, "rationale": "7天质保属基于购买时长的合理推断，无虚构"},
+    "tone": {"score": 4, "rationale": "开头有道歉，态度正常"}
+  },
+  "case_05": {
+    "accuracy": {"score": 5, "rationale": "无事实性主张"},
+    "helpfulness": {"score": 3, "rationale": "虽问了遇到什么问题，但插入『加强培训』内部话术，未立刻承接原诉求"},
+    "groundedness": {"score": 5, "rationale": "无具体事实断言"},
+    "tone": {"score": 3, "rationale": "用户在气头上，道歉偏模板化，官腔感重"}
+  },
+  "case_06": {
+    "accuracy": {"score": 4, "rationale": "未达门槛/范围不符/过期/已用四类原因正确"},
+    "helpfulness": {"score": 3, "rationale": "罗列可能原因但未代查用户优惠券状态，仍让用户自查规则"},
+    "groundedness": {"score": 5, "rationale": "无臆造信息"},
+    "tone": {"score": 4, "rationale": "礼貌清晰"}
+  },
+  "case_07": {
+    "accuracy": {"score": 5, "rationale": "不点链接、官网核实、改密、二次验证的防诈指引正确"},
+    "helpfulness": {"score": 3, "rationale": "核心疑问『是不是真的』没正面回答，把判断推给用户，未代查登录记录"},
+    "groundedness": {"score": 5, "rationale": "无臆造事实"},
+    "tone": {"score": 3, "rationale": "用户处于恐慌中，缺少情绪安抚"}
+  },
+  "case_08": {
+    "accuracy": {"score": 5, "rationale": "TPU软胶结论与人工参考一致"},
+    "helpfulness": {"score": 4, "rationale": "直接答了材质；尾部『看详情页/问客服』略冗余但不影响答案"},
+    "groundedness": {"score": 4, "rationale": "直接断言具体商品材质（本次经人工核对正确），属高风险臆测点"},
+    "tone": {"score": 4, "rationale": "礼貌"}
+  },
+  "case_09": {
+    "accuracy": {"score": 5, "rationale": "质量问题商家承担/个人原因买家承担的规则正确"},
+    "helpfulness": {"score": 4, "rationale": "规则讲清楚了，人工认为给规则本身有价值；未追问具体场景为小瑕"},
+    "groundedness": {"score": 5, "rationale": "通用规则，无虚构"},
+    "tone": {"score": 4, "rationale": "礼貌"}
+  },
+  "case_10": {
+    "accuracy": {"score": 5, "rationale": "未发货可取消、退款1-3工作日到账正确"},
+    "helpfulness": {"score": 4, "rationale": "给出明确操作路径与时效，人工评价可接受"},
+    "groundedness": {"score": 5, "rationale": "无虚构"},
+    "tone": {"score": 4, "rationale": "礼貌清晰"}
+  },
+  "case_11": {
+    "accuracy": {"score": 4, "rationale": "退换流程描述无大错"},
+    "helpfulness": {"score": 3, "rationale": "两件商品不同尺码需逐一确认，回复直接给通用流程，没追问哪两件/换什么码"},
+    "groundedness": {"score": 4, "rationale": "『换货运费买家承担』为规则陈述，未核实该单是否含运费险"},
+    "tone": {"score": 4, "rationale": "礼貌"}
+  },
+  "case_12": {
+    "accuracy": {"score": 4, "rationale": "物流未更新的三类原因合理"},
+    "helpfulness": {"score": 3, "rationale": "让用户再等1-2天，未主动代查物流或联系快递"},
+    "groundedness": {"score": 5, "rationale": "无虚构"},
+    "tone": {"score": 4, "rationale": "礼貌"}
+  },
+  "case_13": {
+    "accuracy": {"score": 4, "rationale": "看成分表、先买小样测试的建议本身无错"},
+    "helpfulness": {"score": 2, "rationale": "用户明说皮肤敏感要成分表，回复两次推去详情页/品牌客服，未承接个性化诉求"},
+    "groundedness": {"score": 5, "rationale": "无虚构"},
+    "tone": {"score": 3, "rationale": "对敏感肌这一特殊关切缺少共情"}
+  },
+  "case_14": {
+    "accuracy": {"score": 5, "rationale": "无错误主张"},
+    "helpfulness": {"score": 4, "rationale": "感谢并承诺转达产品团队，人工认为处理得当；可再问具体商品"},
+    "groundedness": {"score": 5, "rationale": "无虚构"},
+    "tone": {"score": 5, "rationale": "感谢语气积极，接住了用户建议"}
+  },
+  "case_15": {
+    "accuracy": {"score": 4, "rationale": "退款+商家承担运费+反馈品控正确"},
+    "helpfulness": {"score": 4, "rationale": "提到可申请补偿券但未具体化方案"},
+    "groundedness": {"score": 4, "rationale": "『额外补偿优惠券』为模糊承诺，未明确额度或是否一定批准"},
+    "tone": {"score": 3, "rationale": "用户强调连续两次坏货，安抚力度不足"}
+  },
+  "case_16": {
+    "accuracy": {"score": 5, "rationale": "无错误主张"},
+    "helpfulness": {"score": 3, "rationale": "追问预算/方向是对的，但让用户自己去看详情页评价，未主动代对比"},
+    "groundedness": {"score": 5, "rationale": "无虚构"},
+    "tone": {"score": 4, "rationale": "礼貌"}
+  },
+  "case_17": {
+    "accuracy": {"score": 4, "rationale": "退货页/物流页两个查询入口说明正确"},
+    "helpfulness": {"score": 3, "rationale": "提出给订单号可代查尚可，但默认让用户自己去两个页面查"},
+    "groundedness": {"score": 5, "rationale": "无虚构"},
+    "tone": {"score": 4, "rationale": "礼貌"}
+  },
+  "case_18": {
+    "accuracy": {"score": 4, "rationale": "质量问题+30天质保+商家承担运费正确"},
+    "helpfulness": {"score": 4, "rationale": "解决方案清晰，人工评价质量尚可；未追问用户倾向哪种方案"},
+    "groundedness": {"score": 4, "rationale": "断言30天质保（与人工一致）但未核对订单"},
+    "tone": {"score": 4, "rationale": "有道歉"}
+  },
+  "case_19": {
+    "accuracy": {"score": 4, "rationale": "补货时间不固定、到货提醒功能说明合理"},
+    "helpfulness": {"score": 3, "rationale": "未查具体商品补货计划，只给通用建议；加购提醒是次优解"},
+    "groundedness": {"score": 5, "rationale": "无虚构"},
+    "tone": {"score": 4, "rationale": "礼貌"}
+  },
+  "case_20": {
+    "accuracy": {"score": 4, "rationale": "退货四步流程本身正确"},
+    "helpfulness": {"score": 1, "rationale": "用户明说流程太复杂搞不懂，回复又原样重复一遍流程，答非所问"},
+    "groundedness": {"score": 5, "rationale": "无虚构"},
+    "tone": {"score": 3, "rationale": "道了歉但没接住用户的挫败情绪"}
+  }
+}

@@ -1,0 +1,3 @@
+# 核心流水线仅用 Python 标准库，零依赖即可跑：python run.py mock
+# 出图（可选）需要 matplotlib：
+matplotlib>=3.7

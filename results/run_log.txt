@@ -1,0 +1,7 @@
+﻿[done] mode=mock, cases=20, overall=77.6/100
+  low  case_20: 61.0  (退货流程太复杂了搞半天都不知道怎么操作)
+  low  case_02: 66.0  (这个充电宝能带上飞机吗)
+  low  case_01: 68.0  (我的快递到了但是放错快递柜了，取不出来)
+  low  case_13: 68.0  (我买的面膜成分表能发给我看看吗我皮肤敏感)
+  low  case_03: 73.0  (退款什么时候能到账)
+report -> C:\Users\86186\Doubao\chats\2026-09-28\new-chat-1\auto_reply_eval\results\report.md
